@@ -1,0 +1,26 @@
+{
+	"blend": {
+		"type": "add"
+	},
+	"conditions": {
+		"worlds": [
+			"minecraft:overworld"
+		]
+	},
+	"decorations": {
+		"showMoon": true,
+		"showStars": false,
+		"showSun": true
+	},
+	"properties": {
+		"fade": {
+			"endFadeIn": 14000,
+			"endFadeOut": 22667,
+			"startFadeIn": 13167,
+			"startFadeOut": 21834
+		}
+	},
+	"schemaVersion": 2,
+	"texture": "fabricskyboxes:sky/polaris_night.png",
+	"type": "single-sprite-square-textured"
+}

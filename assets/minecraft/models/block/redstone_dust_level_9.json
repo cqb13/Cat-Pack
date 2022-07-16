@@ -1,0 +1,15 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"level": "block/redstone_dust_level_9"
+	},
+	"elements": [
+		{
+			"from": [6, 1.2, 6],
+			"to": [10, 1.2, 10],
+			"faces": {
+				"up": {"uv": [16, 16, 0, 0], "texture": "#level"}
+			}
+		}
+	]
+}

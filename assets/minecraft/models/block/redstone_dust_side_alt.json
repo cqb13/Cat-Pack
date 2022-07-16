@@ -1,0 +1,22 @@
+{
+"ambientocclusion": false,
+	"textures": {
+		"particle": "block/redstone_dot",
+		"fixb": "block/redstone_dust_line0"
+				},
+	"elements": [
+		{
+		"name": "fixb",
+		"from": [ 6.0, 0.0, 8.0 ], 
+		"to": [ 10.0, 0.1, 16.0 ], 
+		"shade": false,
+		"faces":{
+			"up": { "texture": "#fixb", "uv": [ 6.5, 0.0, 9.5, 8.0 ], "tintindex": 0 },
+			"down": { "texture": "#fixb", "uv": [ 6.5, 0.0, 9.5, 8.0 ], "tintindex": 0 },
+			"east": { "texture": "#fixb", "uv": [ 6.0, 0.0, 10.0, 16.0 ], "tintindex": 0, "rotation": 90 },
+			"south": { "texture": "#fixb", "uv": [ 6.5, 0.0, 9.5, 16.0 ], "tintindex": 0 },
+			"west": { "texture": "#fixb", "uv": [ 6.0, 16.0, 10.0, 0.0 ], "tintindex": 0 , "rotation": 90 }
+				}
+		}
+				]
+}

@@ -1,0 +1,26 @@
+{
+	"blend": {
+		"type": "add"
+	},
+	"conditions": {
+		"worlds": [
+			"minecraft:overworld"
+		]
+	},
+	"decorations": {
+		"showMoon": true,
+		"showStars": false,
+		"showSun": true
+	},
+	"properties": {
+		"fade": {
+			"endFadeIn": 0,
+			"endFadeOut": 13750,
+			"startFadeIn": 22000,
+			"startFadeOut": 11750
+		}
+	},
+	"schemaVersion": 2,
+	"texture": "fabricskyboxes:sky/horizon.png",
+	"type": "single-sprite-square-textured"
+}

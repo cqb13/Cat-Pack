@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 2,
+  "type": "square-textured",
+  "blend": true,
+  "textures": {
+    "top": "fabricskyboxes:sky/cloud2_top.png",
+    "bottom": "fabricskyboxes:sky/cloud2_bottom.png",
+    "north": "fabricskyboxes:sky/cloud2_north.png",
+    "south": "fabricskyboxes:sky/cloud2_south.png",
+    "east": "fabricskyboxes:sky/cloud2_east.png",
+    "west": "fabricskyboxes:sky/cloud2_west.png"
+  },
+  "properties": {
+    "fade": {
+      "startFadeIn": 12000,
+      "endFadeIn": 12750,
+      "startFadeOut": 12833,
+      "endFadeOut": 13166
+    },
+    "shouldRotate": true,
+    "rotation": {
+      "axis": [
+        0.0,
+        -36.0,
+        0.0
+      ]
+    }
+  },
+  "conditions": {
+    "worlds": [
+      "minecraft:overworld"
+    ]
+  }
+}

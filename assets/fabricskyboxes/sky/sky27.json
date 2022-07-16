@@ -1,0 +1,40 @@
+{
+	"blend": {
+		"type": "add"
+	},
+	"conditions": {
+		"worlds": [
+			"minecraft:overworld"
+		]
+	},
+	"decorations": {
+		"showMoon": true,
+		"showStars": false,
+		"showSun": true
+	},
+	"properties": {
+		"fade": {
+			"endFadeIn": 16767,
+			"endFadeOut": 16833,
+			"startFadeIn": 16750,
+			"startFadeOut": 16816
+		},
+		"rotation": {
+			"axis": [
+				0.0,
+				45.0, // adjust yaw of rotation axis
+				90.0 // change rotation from FSB's XZ to OF's YZ
+			],
+			"rotationSpeed": 165.0,
+			"static": [
+				0.0,
+				90.0, // FSB rotates top/bottom textures, adjust for OF
+				0.0
+			]
+		},
+		"shouldRotate": true
+	},
+	"schemaVersion": 2,
+	"texture": "fabricskyboxes:sky/meteor_sw.png",
+	"type": "single-sprite-square-textured"
+}
