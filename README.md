@@ -14,8 +14,6 @@
 <div align="center">
   <a href="https://discord.gg/UNK89z7en3"><img src="https://invidget.switchblade.xyz/UNK89z7en3"></a>
 </div>
-
-<hr />
-
+<br/><br/><br/>
 *Note: Most of these are not my textures*
-
+<hr/>
